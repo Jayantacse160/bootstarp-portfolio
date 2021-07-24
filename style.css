@@ -1,0 +1,175 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.hr{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 50px;
+    margin: auto;
+}
+
+/* header section start */
+
+#header{
+    background-image: url(banner-photo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.navbar{
+    background-color:rgba(0, 0, 0, 0.3);
+    padding: 1% 10%;
+}
+
+.nav-icon{
+    color:white;
+}
+.header-container {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    height: 100vh;
+}
+.header-content h1{
+    font-size:3rem;
+    font-family: 'Handlee', cursive;
+    background-color: rgb(80, 80, 179);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.nav-link{
+    color: white;
+    transition: 1s;
+    margin: 10px;
+  
+    
+}
+.nav-link:hover{
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: scale(1.2);
+}
+/* header section end */
+
+
+/* card start */
+#card-section{
+    padding: 3% 8%;
+    background-color:rgb(199, 139, 149);
+}
+
+.card-icon{
+    background-color: rgb(67, 67, 161);
+    color: white;
+    padding: 20px;
+}
+.card-content{
+    border: 1px solid rgb(128, 76, 177);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+    transition: .5s;
+}
+.card-content:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 4px 5px black;
+}
+
+/* card end */
+
+/* about start */
+#about-me{
+    background-color: rgb(224, 166, 176);
+    padding: 3% 8%;
+}
+.personal-info p{
+    margin-bottom: 0;
+    font-size: .9rem;
+}
+.personal-info a{
+    color: black;
+}
+
+.skill-icon{
+    color: black;
+    width: 15px;
+}
+/* about end */
+
+/* tutorial start */
+#tutorial{
+    padding: 3% 8%;
+    background-color: rgb(172, 115, 125);
+}
+.card{
+    transition: .5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 4px 5px black;
+}
+/* tutorial end */
+/* feedback start */
+#feedback{
+    padding: 3% 8%;
+    background-color: rgb(177, 160, 163);
+}
+.carousel-item{
+     padding: 5% 12%;
+}
+/* feedback end */
+
+/* contact start */
+#contact{
+    padding: 3% 8%;
+    background-color: rgb(184, 169, 171);
+}
+/* contact end */
+
+/* contact start */
+textarea{
+    resize: none;
+}
+/* contact end */
+
+footer{
+    padding: 1% 8%;
+    background-color: rgb(238, 170, 185);
+}
+
+/* footer start */
+footer a{
+    font-size: 20px;
+}
+footer a:hover{
+    background-color: black;
+}
+
+/* footer end */
+
+/* responsive */
+@media (max-width:768px){
+    .header-container {
+      
+        height: 70vh;
+    }
+    .header-content h1{
+        font-size: 2.5rem;
+    }
+}
